@@ -31,30 +31,29 @@ from pyrogram.errors import UserAlreadyParticipant
 from pyrogram.types import Voice
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from Python_ARQ import ARQ
-from youtube_search import YoutubeSearch
-from xRobot.modules.play import generate_cover
-from xRobot.modules.play import arq
-from xRobot.modules.play import cb_admin_check
-from xRobot.modules.play import transcode
-from xRobot.modules.play import convert_seconds
-from xRobot.modules.play import time_to_seconds
-from xRobot.modules.play import changeImageSize
-from xRobot.config import BOT_NAME as bn
-from xRobot.config import DURATION_LIMIT
-from xRobot.config import UPDATES_CHANNEL as updateschannel
-from xRobot.config import que
-from xRobot.function.admins import admins as a
-from xRobot.helpers.errors import DurationLimitError
-from xRobot.helpers.decorators import errors
-from xRobot.helpers.admins import get_administrators
-from xRobot.helpers.channelmusic import get_chat_id
-from xRobot.helpers.decorators import authorized_users_only
-from xRobot.helpers.filters import command, other_filters
-from xRobot.helpers.gets import get_file_name
-from xRobot.services.callsmusic import callsmusic, queues
-from xRobot.services.callsmusic.callsmusic import client as USER
-from xRobot.services.converter.converter import convert
-from xRobot.services.downloaders import youtube
+from GeezProject.modules.play import generate_cover
+from GeezProject.modules.play import arq
+from GeezProject.modules.play import cb_admin_check
+from GeezProject.modules.play import transcode
+from GeezProject.modules.play import convert_seconds
+from GeezProject.modules.play import time_to_seconds
+from GeezProject.modules.play import changeImageSize
+from GeezProject.config import BOT_NAME as bn
+from GeezProject.config import DURATION_LIMIT
+from GeezProject.config import UPDATES_CHANNEL as updateschannel
+from GeezProject.config import que
+from GeezProject.function.admins import admins as a
+from GeezProject.helpers.errors import DurationLimitError
+from GeezProject.helpers.decorators import errors
+from GeezProject.helpers.admins import get_administrators
+from GeezProject.helpers.channelmusic import get_chat_id
+from GeezProject.helpers.decorators import authorized_users_only
+from GeezProject.helpers.filters import command, other_filters
+from GeezProject.helpers.gets import get_file_name
+from GeezProject.services.callsmusic import callsmusic, queues
+from GeezProject.services.callsmusic.callsmusic import client as USER
+from GeezProject.services.converter.converter import convert
+from GeezProject.services.downloaders import youtube
 
 chat_id = None
 
